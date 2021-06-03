@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    font-size: 1rem;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(97, 97, 97)
+}
+
+.navbar {
+    background-color:#6E7B8B !important;
+}
+
+.logo {
+    display: inline-block;
+    align-items: center;
+    width: 30%;
+}
+
+.mainphoto > img {
+    padding-top: 0%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+  }
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-shadow:black 0.1em 0.1em 0.2em;
+}
+
+.icons {
+    padding: 5%;
+    border: 10%;
+    color: white;
+    text-shadow:grey;
+}
+
+.btn {
+    align-items: center;
+    width: 20%;
+    height: 8%;
+    text-align: center;
+    justify-content: center;
+    margin: 0%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+    background-color: #6E7B8B;
+}
+
+.col-4 {
+    background-color: rgb(186, 194, 202);
+    padding-top: 3%;
+}
+
+.Contact {
+    margin-top: 3%;
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    justify-content:space-evenly;
+    padding-right: 30%;
+    padding-top: 3%;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.texthomepage {
+    text-align: center;
+    font-size: 150%;
+}
+
+.column {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    align-items: flex-end;
+    padding-bottom: 5%;
+}
+
+.columntext {
+    width: 50%;
+    line-height: 2;
+    text-align:left;
+    font-size: 1.5vw;
+}
+
+/*Footer*/
+
+footer {
+    background-color:#6E7B8B;
+    padding: 0%;
+    text-align: center;
+    color: white;
+}
+
+.footer >img {
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+table {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
